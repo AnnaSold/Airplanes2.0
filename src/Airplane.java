@@ -30,4 +30,8 @@ public class Airplane{
                 ", capacity=" + capacity +
                 '}';
     }
+
+    public void fly(){
+        System.out.println(this.name +" " + "летит");
+    }
 }
